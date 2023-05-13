@@ -1,4 +1,8 @@
 # dospdfenuno
+Como funciona; abre una terminal y corres el programa con python de la siguiente manera; 
+python dospdf.py
+Escoges dos pdf, para escoger seleccionar preciona la tecla shift + click en el archivo que quieras.
+luego de seleccionar, haces en Abrir, luego en la consola te pregungtara para que ingreses un nombre para el pdf final.
 
 
 
