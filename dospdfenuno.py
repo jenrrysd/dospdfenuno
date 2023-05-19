@@ -9,6 +9,7 @@ import shutil
 # Función para seleccionar los archivos PDF
 def select_files():
     root = tk.Tk()
+    root.title("Juntar Varios PDF en Uno")
     root.withdraw()
     files = filedialog.askopenfilenames(title="Seleccionar archivos PDF", filetypes=[("PDF Files", "*.pdf")])
     return files
@@ -28,7 +29,7 @@ username = os.getenv('USER')
 documentos_dir = f"/home/{username}/Documentos"
 
 try:
-    command = ["zenity", "--entry", "--title", "Juntar dos PDF en uno", "--text", "Ingresa un nombre para el archivo resultante (sin la extensión .pdf)"]
+    command = ["zenity", "--entry", "--title", "Juntar Varios PDF en Uno", "--text", "Ingresa un nombre para el archivo resultante (sin la extensión .pdf)"]
     output_file = subprocess.check_output(command).decode("utf-8").strip()
 
     # Combinar los archivos PDF en uno solo
@@ -36,7 +37,7 @@ try:
     merger.close()
 
     # Mensaje de la conbiancion creada.
-    messagebox.showinfo("Combinación de archivos PDF", f"El nuevo nombre del PDF es:\n{output_file}.pdf \nEl pdf esta ubicado en:\n{documentos_dir}")
+    messagebox.showinfo("Juntar Varios PDF en Uno", f"El nuevo nombre del PDF es:\n{output_file}.pdf \nY esta ubicado en:\n{documentos_dir}")
 
     # Despues de crear el nuevo pdf lo mueve al directorio Documentos
     shutil.move(f"{output_file}.pdf", os.path.join(documentos_dir, f"{output_file}.pdf"))
