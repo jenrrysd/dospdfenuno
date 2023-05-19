@@ -1,8 +1,8 @@
 # dospdfenuno
 Como funciona; abre una terminal y corres el programa con python de la siguiente manera; 
-python dospdf.py
-Escoges dos pdf, para escoger seleccionar preciona la tecla shift + click en el archivo que quieras.
-luego de seleccionar, haces en Abrir, luego en la consola te pregungtara para que ingreses un nombre para el pdf final.
+python dospdfenuno.py
+Escoges dos o mas pdf, para escoger seleccionar debes preciona la tecla shift + click sobre el archivo que quieras.
+luego de seleccionar, haces click en Abrir, luego te saldrá una ventana para que pongas el nuevo nombre del pdf conbinado, tambien te mostrará un mensaje indicandote la ruta de su ubicación.
 
 
 
