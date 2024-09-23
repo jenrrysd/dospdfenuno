@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="39.277679mm"
+   height="50.141071mm"
+   viewBox="0 0 39.277679 50.141071"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-69.588381,-89.467725)">
+    <g
+       id="g2">
+      <rect
+         style="fill:#f2f2f2;stroke:#000000;stroke-width:0.749829"
+         id="rect2"
+         width="38.527851"
+         height="49.391235"
+         x="69.963295"
+         y="89.842636"
+         ry="4.0988283" />
+      <text
+         xml:space="preserve"
+         style="font-size:4.9389px;line-height:0.85;font-family:'Droid Sans Fallback';-inkscape-font-specification:'Droid Sans Fallback';text-align:center;text-anchor:middle;white-space:pre;inline-size:19.9768;stroke-width:0.264583"
+         x="96.386703"
+         y="129.03615"
+         id="text1"
+         transform="matrix(1.6257256,0,0,2.7950874,-67.608578,-243.67523)"><tspan
+           x="96.386703"
+           y="129.03615"
+           id="tspan4"><tspan
+             style="font-weight:bold;font-size:7.76111px;font-family:'Noto Sans Canadian Aboriginal';-inkscape-font-specification:'Noto Sans Canadian Aboriginal Bold';letter-spacing:0px"
+             id="tspan3">PdF's
+</tspan></tspan><tspan
+           x="96.386703"
+           y="134.30981"
+           id="tspan6"><tspan
+             dx="0 0 -0.013229407 0.01322952"
+             style="font-weight:bold;font-size:5.99722px;font-family:Cantarell;-inkscape-font-specification:'Cantarell Bold';letter-spacing:0.0123367px;word-spacing:0.0132292px"
+             id="tspan5">en uno</tspan></tspan></text>
+      <path
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.749829"
+         d="M 70.39892,99.606607 81.028198,89.873882"
+         id="path2" />
+    </g>
+  </g>
+</svg>
